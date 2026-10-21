@@ -1,0 +1,597 @@
+{
+  "countries": [
+    {
+      "code": "CL",
+      "name": "智利",
+      "region": "南美",
+      "currency": "CLP"
+    },
+    {
+      "code": "US",
+      "name": "美国",
+      "region": "北美",
+      "currency": "USD"
+    },
+    {
+      "code": "CA",
+      "name": "加拿大",
+      "region": "北美",
+      "currency": "CAD"
+    },
+    {
+      "code": "MX",
+      "name": "墨西哥",
+      "region": "北美",
+      "currency": "MXN"
+    },
+    {
+      "code": "BR",
+      "name": "巴西",
+      "region": "南美",
+      "currency": "BRL"
+    },
+    {
+      "code": "AR",
+      "name": "阿根廷",
+      "region": "南美",
+      "currency": "ARS"
+    },
+    {
+      "code": "GB",
+      "name": "英国",
+      "region": "欧洲",
+      "currency": "GBP"
+    },
+    {
+      "code": "DE",
+      "name": "德国",
+      "region": "欧洲",
+      "currency": "EUR"
+    },
+    {
+      "code": "FR",
+      "name": "法国",
+      "region": "欧洲",
+      "currency": "EUR"
+    },
+    {
+      "code": "ES",
+      "name": "西班牙",
+      "region": "欧洲",
+      "currency": "EUR"
+    },
+    {
+      "code": "IT",
+      "name": "意大利",
+      "region": "欧洲",
+      "currency": "EUR"
+    },
+    {
+      "code": "NL",
+      "name": "荷兰",
+      "region": "欧洲",
+      "currency": "EUR"
+    },
+    {
+      "code": "PL",
+      "name": "波兰",
+      "region": "欧洲",
+      "currency": "PLN"
+    },
+    {
+      "code": "SE",
+      "name": "瑞典",
+      "region": "欧洲",
+      "currency": "SEK"
+    },
+    {
+      "code": "AU",
+      "name": "澳大利亚",
+      "region": "大洋洲",
+      "currency": "AUD"
+    },
+    {
+      "code": "NZ",
+      "name": "新西兰",
+      "region": "大洋洲",
+      "currency": "NZD"
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "region": "亚洲",
+      "currency": "JPY"
+    },
+    {
+      "code": "KR",
+      "name": "韩国",
+      "region": "亚洲",
+      "currency": "KRW"
+    },
+    {
+      "code": "TW",
+      "name": "中国台湾",
+      "region": "亚洲",
+      "currency": "TWD"
+    },
+    {
+      "code": "HK",
+      "name": "中国香港",
+      "region": "亚洲",
+      "currency": "HKD"
+    },
+    {
+      "code": "CN",
+      "name": "中国大陆",
+      "region": "亚洲",
+      "currency": "CNY"
+    },
+    {
+      "code": "SG",
+      "name": "新加坡",
+      "region": "亚洲",
+      "currency": "SGD"
+    },
+    {
+      "code": "MY",
+      "name": "马来西亚",
+      "region": "亚洲",
+      "currency": "MYR"
+    },
+    {
+      "code": "IN",
+      "name": "印度",
+      "region": "亚洲",
+      "currency": "INR"
+    },
+    {
+      "code": "AE",
+      "name": "阿联酋",
+      "region": "中东",
+      "currency": "AED"
+    },
+    {
+      "code": "SA",
+      "name": "沙特阿拉伯",
+      "region": "中东",
+      "currency": "SAR"
+    },
+    {
+      "code": "ZA",
+      "name": "南非",
+      "region": "非洲",
+      "currency": "ZAR"
+    }
+  ],
+  "sources": [
+    {
+      "id": "cl-market",
+      "country": "CL",
+      "region": "南美",
+      "currency": "CLP",
+      "store": "SP Digital",
+      "url": "https://www.spdigital.cl/search?query=rtx%205090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "us-market",
+      "country": "US",
+      "region": "北美",
+      "currency": "USD",
+      "store": "Newegg",
+      "url": "https://www.newegg.com/p/pl?d=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "ca-market",
+      "country": "CA",
+      "region": "北美",
+      "currency": "CAD",
+      "store": "Canada Computers",
+      "url": "https://www.canadacomputers.com/en/search?s=5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "mx-market",
+      "country": "MX",
+      "region": "北美",
+      "currency": "MXN",
+      "store": "Cyberpuerta",
+      "url": "https://www.cyberpuerta.mx/index.php?cl=search&searchparam=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "br-market",
+      "country": "BR",
+      "region": "南美",
+      "currency": "BRL",
+      "store": "KaBuM!",
+      "url": "https://www.kabum.com.br/busca/rtx-5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "ar-market",
+      "country": "AR",
+      "region": "南美",
+      "currency": "ARS",
+      "store": "Mercado Libre",
+      "url": "https://listado.mercadolibre.com.ar/rtx-5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "gb-market",
+      "country": "GB",
+      "region": "欧洲",
+      "currency": "GBP",
+      "store": "Scan",
+      "url": "https://www.scan.co.uk/search?q=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "de-market",
+      "country": "DE",
+      "region": "欧洲",
+      "currency": "EUR",
+      "store": "Alternate",
+      "url": "https://www.alternate.de/listing.xhtml?q=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "fr-market",
+      "country": "FR",
+      "region": "欧洲",
+      "currency": "EUR",
+      "store": "LDLC",
+      "url": "https://www.ldlc.com/recherche/rtx%205090/",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "es-market",
+      "country": "ES",
+      "region": "欧洲",
+      "currency": "EUR",
+      "store": "PcComponentes",
+      "url": "https://www.pccomponentes.com/categorias/tarjetas-graficas/nvidia-rtx-5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "it-market",
+      "country": "IT",
+      "region": "欧洲",
+      "currency": "EUR",
+      "store": "Amazon IT",
+      "url": "https://www.amazon.it/s?k=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "nl-market",
+      "country": "NL",
+      "region": "欧洲",
+      "currency": "EUR",
+      "store": "Alternate NL",
+      "url": "https://www.alternate.nl/Grafische-kaarten/NVIDIA-grafische-kaarten/RTX-5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "pl-market",
+      "country": "PL",
+      "region": "欧洲",
+      "currency": "PLN",
+      "store": "x-kom",
+      "url": "https://www.x-kom.pl/szukaj?q=rtx%205090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "se-market",
+      "country": "SE",
+      "region": "欧洲",
+      "currency": "SEK",
+      "store": "Inet",
+      "url": "https://www.inet.se/hitta?q=rtx%205090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "au-market",
+      "country": "AU",
+      "region": "大洋洲",
+      "currency": "AUD",
+      "store": "Scorptec",
+      "url": "https://www.scorptec.com.au/product/graphics-cards/gaming-graphics-cards",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "nz-market",
+      "country": "NZ",
+      "region": "大洋洲",
+      "currency": "NZD",
+      "store": "PB Tech",
+      "url": "https://www.pbtech.co.nz/category/components/graphics-cards/nvidia-desktop-graphics-cards/geforce-rtx-5090/shop-all",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "jp-market",
+      "country": "JP",
+      "region": "亚洲",
+      "currency": "JPY",
+      "store": "Dospara",
+      "url": "https://www.dospara.co.jp/search?q=rtx%205090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "kr-market",
+      "country": "KR",
+      "region": "亚洲",
+      "currency": "KRW",
+      "store": "Danawa",
+      "url": "https://search.danawa.com/dsearch.php?query=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "tw-market",
+      "country": "TW",
+      "region": "亚洲",
+      "currency": "TWD",
+      "store": "AUTOBUY",
+      "url": "https://www.autobuy.tw/3c/cate_17491",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "hk-market",
+      "country": "HK",
+      "region": "亚洲",
+      "currency": "HKD",
+      "store": "Price HK",
+      "url": "https://www.price.com.hk/search.php?g=A&q=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "cn-market",
+      "country": "CN",
+      "region": "亚洲",
+      "currency": "CNY",
+      "store": "京东",
+      "url": "https://search.jd.com/Search?keyword=RTX%205090",
+      "type": "listing",
+      "model": "RTX 5090 / 5090 D 搜索入口（型号需分辨）",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "sg-market",
+      "country": "SG",
+      "region": "亚洲",
+      "currency": "SGD",
+      "store": "Dynacore",
+      "url": "https://dynacoretech.com/index.php?route=product/search&search=5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "my-market",
+      "country": "MY",
+      "region": "亚洲",
+      "currency": "MYR",
+      "store": "IDEALTECH",
+      "url": "https://idealtech.com.my/?s=rtx+5090&post_type=product",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "in-market",
+      "country": "IN",
+      "region": "亚洲",
+      "currency": "INR",
+      "store": "MDComputers",
+      "url": "https://mdcomputers.in/index.php?route=product/search&search=rtx%205090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "ae-market",
+      "country": "AE",
+      "region": "中东",
+      "currency": "AED",
+      "store": "Microless",
+      "url": "https://uae.microless.com/search/?query=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "sa-market",
+      "country": "SA",
+      "region": "中东",
+      "currency": "SAR",
+      "store": "Amazon SA",
+      "url": "https://www.amazon.sa/s?k=rtx+5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "za-market",
+      "country": "ZA",
+      "region": "非洲",
+      "currency": "ZAR",
+      "store": "Wootware",
+      "url": "https://www.wootware.co.za/computer-hardware/video-cards-video-devices/desktop-graphics-cards/shopby/geforce_rtx_5090",
+      "type": "listing",
+      "model": "RTX 5090 搜索 / 分类入口",
+      "catalog_note": "来源目录；实际可访问性以采集结果为准，未接入库存 API"
+    },
+    {
+      "id": "spd-giga",
+      "country": "CL",
+      "region": "南美",
+      "currency": "CLP",
+      "store": "SP Digital",
+      "model": "Gigabyte RTX 5090 WINDFORCE OC",
+      "url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-gv-n5090wf3oc-32gd/",
+      "type": "product",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "spd-msi",
+      "country": "CL",
+      "region": "南美",
+      "currency": "CLP",
+      "store": "SP Digital",
+      "model": "MSI RTX 5090 GAMING TRIO OC",
+      "url": "https://www.spdigital.cl/tarjeta-de-video-msi-geforce-rtx-5090-gaming-trio-oc-32gb-gddr7-512-bit-pci-e-gen-5/",
+      "type": "product",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "solo-msi",
+      "country": "CL",
+      "region": "南美",
+      "currency": "CLP",
+      "store": "SoloTodo",
+      "model": "MSI RTX 5090 GAMING TRIO OC",
+      "url": "https://www.solotodo.cl/products/265691-msi-geforce-rtx-5090-32g-gaming-trio-oc-g5090-32gtc",
+      "type": "aggregator",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "ca-me-msi",
+      "country": "CA",
+      "region": "北美",
+      "currency": "CAD",
+      "store": "Memory Express",
+      "model": "MSI RTX 5090 SUPRIM SOC 32GB",
+      "url": "https://www.memoryexpress.com/Products/MX00132637",
+      "type": "product",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "ca-me-aorus",
+      "country": "CA",
+      "region": "北美",
+      "currency": "CAD",
+      "store": "Memory Express",
+      "model": "Gigabyte RTX 5090 WATERFORCE 32GB",
+      "url": "https://www.memoryexpress.com/Products/MX00132565",
+      "type": "product",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "tw-zotac",
+      "country": "TW",
+      "region": "亚洲",
+      "currency": "TWD",
+      "store": "AUTOBUY",
+      "model": "ZOTAC RTX 5090 SOLID OC White（可能限整机）",
+      "url": "https://www.autobuy.tw/3c/prod_398719",
+      "type": "restricted",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "my-ideal-amd",
+      "country": "MY",
+      "region": "亚洲",
+      "currency": "MYR",
+      "store": "IDEALTECH",
+      "model": "RTX 5090 AMD 整机（不是单卡）",
+      "url": "https://idealtech.com.my/product/amd-rtx5090-gamingpc/",
+      "type": "bundle",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "my-ideal-intel",
+      "country": "MY",
+      "region": "亚洲",
+      "currency": "MYR",
+      "store": "IDEALTECH",
+      "model": "RTX 5090 Intel 整机（不是单卡）",
+      "url": "https://idealtech.com.my/product/intel-rtx5090-gamingpc/",
+      "type": "bundle",
+      "catalog_note": "沿用已有仓库来源；以当前采集结果为准"
+    },
+    {
+      "id": "us-newegg-asus",
+      "country": "US",
+      "region": "北美",
+      "currency": "USD",
+      "store": "Newegg",
+      "model": "ASUS TUF Gaming RTX 5090 32GB",
+      "url": "https://www.newegg.com/asus-tuf-gaming-tuf-rtx5090-32g-gaming-geforce-rtx-5090-32gb-graphics-card-triple-fans/p/N82E16814126752",
+      "type": "product",
+      "catalog_note": "已核对官方商品入口；当前数据仍以定时采集为准"
+    },
+    {
+      "id": "gb-scan-zotac",
+      "country": "GB",
+      "region": "欧洲",
+      "currency": "GBP",
+      "store": "Scan",
+      "model": "ZOTAC RTX 5090 SOLID 32GB",
+      "url": "https://www.scan.co.uk/products/zotac-nvidia-geforce-rtx-5090-solid-32gb-gddr7-ray-tracing-graphics-card-dlss-4-21760-cores-2407-mhz",
+      "type": "product",
+      "catalog_note": "已核对官方商品入口；当前数据仍以定时采集为准"
+    },
+    {
+      "id": "de-alternate-zotac",
+      "country": "DE",
+      "region": "欧洲",
+      "currency": "EUR",
+      "store": "Alternate",
+      "model": "ZOTAC RTX 5090 SOLID 32GB",
+      "url": "https://www.alternate.de/ZOTAC/GeForce-RTX-5090-SOLID-Grafikkarte/html/product/100110077",
+      "type": "product",
+      "catalog_note": "已核对官方商品入口；当前数据仍以定时采集为准"
+    },
+    {
+      "id": "au-scorptec-gigabyte",
+      "country": "AU",
+      "region": "大洋洲",
+      "currency": "AUD",
+      "store": "Scorptec",
+      "model": "Gigabyte AORUS RTX 5090 MASTER ICE 32GB",
+      "url": "https://www.scorptec.com.au/product/graphics-cards/nvidia/116283-gv-n5090aorusm-ice-32gd",
+      "type": "product",
+      "catalog_note": "已核对官方商品入口；当前数据仍以定时采集为准"
+    }
+  ]
+}
